@@ -117,7 +117,6 @@ const GenerateProgramPage = () => {
     };
   }, []);
 
-  console.log(messages);
   return (
     <div className="flex flex-col min-h-screen text-foreground overflow-hidden pb-6 pt-24">
       <div className="container mx-auto px-4 h-full max-w-5xl">

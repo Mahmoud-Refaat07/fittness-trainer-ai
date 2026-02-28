@@ -50,21 +50,21 @@ const UserPrograms = () => {
             </p>
 
             {/* STATS */}
-            <div className="flex items-center justify-center gap-16 mt-10 font-mono">
+            <div className="sm:flex items-center justify-center gap-16 mt-10 font-mono">
               <div className="flex flex-col items-center gap-1">
                 <p className="text-3xl font-bold text-orange-500">500+</p>
                 <p className="text-xs text-gray-500 uppercase tracking-widest">
                   Programs
                 </p>
               </div>
-              <div className="w-px h-12 bg-gradient-to-b from-transparent via-orange-600/50 to-transparent"></div>
+              <div className="w-px h-12 bg-linear-to-b from-transparent via-orange-600/50 to-transparent"></div>
               <div className="flex flex-col items-center gap-1">
                 <p className="text-3xl font-bold text-orange-500">3min</p>
                 <p className="text-xs text-gray-500 uppercase tracking-widest">
                   Creation Time
                 </p>
               </div>
-              <div className="w-px h-12 bg-gradient-to-b from-transparent via-orange-600/50 to-transparent"></div>
+              <div className="w-px h-12 bg-linear-to-b from-transparent via-orange-600/50 to-transparent"></div>
               <div className="flex flex-col items-center gap-1">
                 <p className="text-3xl font-bold text-orange-500">100%</p>
                 <p className="text-xs text-gray-500 uppercase tracking-widest">

@@ -9,8 +9,8 @@ const Navbar = () => {
   const { isSignedIn } = useUser();
 
   return (
-    <div className="fixed left-0 top-0 z-100 bg-black/40 backdrop-blur-md border-b border-orange-600/30 py-3 w-full">
-      <div className="container mx-auto flex items-center justify-between">
+    <div className="px-1 fixed left-0 top-0 z-100 bg-black/40 backdrop-blur-md border-b border-orange-600/30 py-3 w-full">
+      <div className="container mx-auto md:flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 group">
           <div className="p-1.5 rounded-md bg-orange-600/10 border border-orange-600/20 group-hover:bg-orange-600/20 transition-colors">

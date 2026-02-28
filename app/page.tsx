@@ -48,7 +48,7 @@ const page = () => {
               </p>
 
               {/* STATS */}
-              <div className="flex items-center gap-10 py-4 font-mono">
+              <div className="md:flex  items-center gap-10 py-4 font-mono text-center">
                 <div className="flex flex-col gap-1">
                   <div className="text-2xl font-bold text-orange-500">500+</div>
                   <div className="text-xs uppercase tracking-widest text-gray-500">
@@ -72,7 +72,7 @@ const page = () => {
               </div>
 
               {/* BUTTONS */}
-              <div className="flex items-center gap-4">
+              <div className="md:flex items-center gap-4 text-center">
                 <Button
                   size="lg"
                   asChild
